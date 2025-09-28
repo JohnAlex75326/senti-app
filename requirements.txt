@@ -3,3 +3,4 @@ spacy
 pytesseract
 Pillow
 matplotlib
+tesseract-ocr
