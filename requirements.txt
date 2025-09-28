@@ -1,0 +1,7 @@
+streamlit
+pytesseract
+Pillow
+textblob
+spacy
+pandas
+matplotlib
