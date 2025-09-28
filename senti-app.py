@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 # Load spaCy NLP model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("models/en_core_web_sm")
 
 # Positive/Negative words list for simple sentiment
 positive_words = ["good", "great", "excellent", "happy", "love", "progress"]
