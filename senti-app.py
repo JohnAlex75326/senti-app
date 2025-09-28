@@ -19,7 +19,7 @@ sentiment_model = pipeline("sentiment-analysis")  # Hugging Face BERT sentiment
 # Streamlit UI
 # -----------------------------
 st.title("📝 SentAL - Smart Sentiment & Insights Analyzer")
-st.write("Upload **text** or an **image (OCR)** and get **summary, AI-powered sentiment, entities, and charts**")
+st.write("Input a **text** or Upload an **image (OCR)** and get **summary, AI-powered sentiment, entities, and charts**")
 
 # Input type
 option = st.radio("Choose Input Type:", ("Text", "Image"))
