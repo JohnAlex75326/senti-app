@@ -4,5 +4,5 @@ pytesseract
 Pillow
 matplotlib
 wordcloud
-transformers==4.37.2
-torch==2.2.1
+torch==2.7.1
+transformers==4.48.0
