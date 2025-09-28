@@ -1,5 +1,0 @@
-streamlit
-spacy
-pytesseract
-Pillow
-matplotlib
