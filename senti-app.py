@@ -4,9 +4,16 @@ import pytesseract
 from PIL import Image
 from collections import Counter
 import matplotlib.pyplot as plt
+from spacy.cli import download
 
 # Load spaCy NLP model
-nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    st.warning("Downloading spaCy model 'en_core_web_sm'...")
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+    st.success("Model downloaded successfully! Please refresh the page.")
 
 # Positive/Negative words list for simple sentiment
 positive_words = ["good", "great", "excellent", "happy", "love", "progress"]
