@@ -13,7 +13,7 @@ nlp = spacy.load("Models/en_core_web_sm-3.7.1")
 positive_words = ["good", "great", "excellent", "happy", "love", "progress"]
 negative_words = ["bad", "terrible", "sad", "hate", "angry", "problem"]
 
-st.title("📝 Text & Image Sentiment Analyzer")
+st.title("📝 Text & Image Sentiment Analyzer - By Alex")
 st.write("Upload text or an image and get a **summary, sentiment analysis, charts, and insights**")
 
 # Input type
