@@ -6,4 +6,3 @@ matplotlib
 wordcloud
 transformers==4.37.2
 torch==2.2.1
-
