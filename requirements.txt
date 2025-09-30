@@ -6,3 +6,4 @@ matplotlib
 wordcloud
 torch==2.7.1
 transformers==4.48.0
+TextBlob
